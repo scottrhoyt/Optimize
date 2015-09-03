@@ -10,6 +10,12 @@
 		3B72EE721B98C136004A7EA7 /* Optimize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B72EE711B98C136004A7EA7 /* Optimize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B72EE791B98C136004A7EA7 /* Optimize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B72EE6E1B98C136004A7EA7 /* Optimize.framework */; settings = {ASSET_TAGS = (); }; };
 		3B72EE7E1B98C136004A7EA7 /* OptimizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE7D1B98C136004A7EA7 /* OptimizeTests.swift */; };
+		3B72EE8E1B98C183004A7EA7 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE881B98C183004A7EA7 /* MinMax.swift */; settings = {ASSET_TAGS = (); }; };
+		3B72EE8F1B98C183004A7EA7 /* NewtonSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE891B98C183004A7EA7 /* NewtonSolver.swift */; settings = {ASSET_TAGS = (); }; };
+		3B72EE901B98C183004A7EA7 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8A1B98C183004A7EA7 /* Solver.swift */; settings = {ASSET_TAGS = (); }; };
+		3B72EE911B98C183004A7EA7 /* SolverError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8B1B98C183004A7EA7 /* SolverError.swift */; settings = {ASSET_TAGS = (); }; };
+		3B72EE921B98C183004A7EA7 /* SolverResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */; settings = {ASSET_TAGS = (); }; };
+		3B72EE931B98C183004A7EA7 /* SolverValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		3B72EE781B98C136004A7EA7 /* OptimizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B72EE7D1B98C136004A7EA7 /* OptimizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizeTests.swift; sourceTree = "<group>"; };
 		3B72EE7F1B98C136004A7EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B72EE881B98C183004A7EA7 /* MinMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
+		3B72EE891B98C183004A7EA7 /* NewtonSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewtonSolver.swift; sourceTree = "<group>"; };
+		3B72EE8A1B98C183004A7EA7 /* Solver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		3B72EE8B1B98C183004A7EA7 /* SolverError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverError.swift; sourceTree = "<group>"; };
+		3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverResults.swift; sourceTree = "<group>"; };
+		3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,12 @@
 		3B72EE701B98C136004A7EA7 /* Optimize */ = {
 			isa = PBXGroup;
 			children = (
+				3B72EE881B98C183004A7EA7 /* MinMax.swift */,
+				3B72EE891B98C183004A7EA7 /* NewtonSolver.swift */,
+				3B72EE8A1B98C183004A7EA7 /* Solver.swift */,
+				3B72EE8B1B98C183004A7EA7 /* SolverError.swift */,
+				3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */,
+				3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */,
 				3B72EE711B98C136004A7EA7 /* Optimize.h */,
 				3B72EE731B98C136004A7EA7 /* Info.plist */,
 			);
@@ -142,6 +160,7 @@
 		3B72EE651B98C136004A7EA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Scott Hoyt";
 				TargetAttributes = {
@@ -193,6 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B72EE931B98C183004A7EA7 /* SolverValues.swift in Sources */,
+				3B72EE8E1B98C183004A7EA7 /* MinMax.swift in Sources */,
+				3B72EE921B98C183004A7EA7 /* SolverResults.swift in Sources */,
+				3B72EE911B98C183004A7EA7 /* SolverError.swift in Sources */,
+				3B72EE8F1B98C183004A7EA7 /* NewtonSolver.swift in Sources */,
+				3B72EE901B98C183004A7EA7 /* Solver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +332,7 @@
 		3B72EE831B98C136004A7EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,12 +343,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scotthoyt.Optimize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3B72EE841B98C136004A7EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
