@@ -41,6 +41,7 @@
 		3B72EE8B1B98C183004A7EA7 /* SolverError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverError.swift; sourceTree = "<group>"; };
 		3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverResults.swift; sourceTree = "<group>"; };
 		3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverValues.swift; sourceTree = "<group>"; };
+		3B72EE941B98C7E9004A7EA7 /* Examples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Examples.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 				3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */,
 				3B72EE711B98C136004A7EA7 /* Optimize.h */,
 				3B72EE731B98C136004A7EA7 /* Info.plist */,
+				3B72EE941B98C7E9004A7EA7 /* Examples.playground */,
 			);
 			path = Optimize;
 			sourceTree = "<group>";
