@@ -1,0 +1,20 @@
+PODS:
+  - Surge (0.3.0)
+
+DEPENDENCIES:
+  - Surge (from `https://github.com/scottrhoyt/Surge.git`, branch `Swift2`)
+
+EXTERNAL SOURCES:
+  Surge:
+    :branch: Swift2
+    :git: https://github.com/scottrhoyt/Surge.git
+
+CHECKOUT OPTIONS:
+  Surge:
+    :commit: 7c0cd4e7a17a282b82932dc65b2b0c6b5d7e646a
+    :git: https://github.com/scottrhoyt/Surge.git
+
+SPEC CHECKSUMS:
+  Surge: 7a6e960aed366e89112f1c21e2020f3ea5e7316d
+
+COCOAPODS: 0.38.2
