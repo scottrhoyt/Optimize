@@ -177,7 +177,7 @@ let testXs = (-1000...1000).map({ Double($0) / Double(100) })
 let testYs = testXs.map({ curve($0, coeff: [0.5,4,-20,4]) })
 plot(testYs, name: "xoxo")
 
-let guess = [0.1,0.1,0.1,1]
+let guess: [Double] = [0.1,0.1,-0.1,0.1]
 
 //func error(x:[Double])->Double {
 //    return pow(x[0], 2) + pow(x[1], 2)
@@ -196,7 +196,7 @@ let guess = [0.1,0.1,0.1,1]
 var solver = NewtonSolver()
 SolverVar.self
 do {
-    try solver.solve(guess, f: error/*, gradient: gradient*/)
+    try solver.minMax(guess, f: error/*, gradient: gradient*/)
 }
 catch SolverError.MaxIterationsReached(let results) {
     print("Max Iter Reached")

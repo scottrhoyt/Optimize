@@ -40,7 +40,7 @@ public protocol Solver {
     func solve(guess: SolverVar, f: SolverFunc, gradient: GradientFunc?) throws -> SolverResults
     func minMax(guess: SolverVar, f: SolverFunc, gradient: GradientFunc?, gradient2: GradientFunc?) throws -> SolverResults
     
-    func genNextX(x: SolverVar, value: Double, gradient: SolverVar) -> SolverVar
+    func genNextX(f: SolverFunc, x: SolverVar, value: Double, gradient: SolverVar) -> SolverVar
 }
 
 public extension Solver {
@@ -60,7 +60,7 @@ public extension Solver {
         var values = SolverValues(result: guess, value: 0, iterations: 0,  valueChange: 0, gradient: guess, lastValue: 0)
         
         repeat {
-            values.result = values.iterations == 0 ? guess : genNextX(values.result, value: values.value, gradient: values.gradient)
+            values.result = values.iterations == 0 ? guess : genNextX(f, x: values.result, value: values.value, gradient: values.gradient)
             values.value = f(values.result)
             values.valueChange = values.iterations == 0 ? SolverUnit.infinity : abs(values.value - values.lastValue)
             values.gradient = deriv(values.result)
