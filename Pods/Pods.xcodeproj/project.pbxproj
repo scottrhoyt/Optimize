@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E81857D827B769B60E3E65AC6C541A16 /* PBXContainerItemProxy */ = {
+		BDFE46D2CE7D46E7BA1ECC5626457CD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -232,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9258993CFC367B2CE1FF873F34BB16DD /* PBXTargetDependency */,
+				9968A02E5154169D8C07BC0B5755A5AF /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -311,11 +311,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9258993CFC367B2CE1FF873F34BB16DD /* PBXTargetDependency */ = {
+		9968A02E5154169D8C07BC0B5755A5AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Surge;
 			target = D7667194B079E47C17B1DD17AE7942D0 /* Surge */;
-			targetProxy = E81857D827B769B60E3E65AC6C541A16 /* PBXContainerItemProxy */;
+			targetProxy = BDFE46D2CE7D46E7BA1ECC5626457CD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

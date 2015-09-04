@@ -14,12 +14,11 @@ public struct NewtonSolver: Solver {
     
     public func genNextX(f: SolverFunc, x: SolverVar, value: SolverUnit, gradient: SolverVar) -> SolverVar {
         //let gradMag = magnitude(gradient)
-        let unitGradient = gradient / magnitude(gradient)
         //let xMove = gradient * (-0.1 / magnitude(gradient))
         //let xMove = gradient * (-value / magnitude(gradient))
         //let xMove = pow(gradient, -1) * value * -1
         //print("Grad Mag: \(gradMag)\tXMove: \(xMove)")
-        return lineSearch(f, gradient: unitGradient, x: x, fx: value, epsilon: value)
+        return lineSearch(f, gradient: unit(gradient), x: x, fx: value, epsilon: value)
     }
     
     func lineSearch(f: SolverFunc, gradient: SolverVar, x: SolverVar, fx: SolverUnit, epsilon: Double) -> SolverVar {
