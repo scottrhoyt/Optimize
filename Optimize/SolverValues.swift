@@ -2,9 +2,9 @@ import Foundation
 
 internal struct SolverValues: SolverResults {
     var result: SolverVar
-    var value: Double
+    var value: SolverUnit
     var iterations: Int
-    var valueChange: Double
+    var valueChange: SolverUnit
     var gradient: SolverVar
-    var lastValue: Double
+    var lastValue: SolverUnit
 }

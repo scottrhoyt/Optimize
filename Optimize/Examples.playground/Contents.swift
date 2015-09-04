@@ -3,44 +3,45 @@
 import Foundation
 import XCPlayground
 import Optimize
+import Surge
 
-func f(x: Double) -> Double {
-    return pow(x, 3) - cos(x)
-    //return exp(x)
-}
-
-func dfdx(x: Double) -> Double {
-    return 2*pow(x,3) - 15*pow(x,2) + 2*x - 4
-}
-
-let length = 300
-let cosine = (0..<length).map({ f(Double($0)/Double(100)) })
-for num in cosine {
-    XCPCaptureValue("cos", value: num)
-}
-
-var solver: Solver = NewtonSolver()
-//solver.deriv = dfdx
-do {
-    //    let results = try solver.solve(10, f: finiteDifference(f, increment: 0.0000001)/*, gradient: dfdx*/)
-    let results = try solver.solve(10, f: f/*, gradient: dfdx*/)
-    let results2 = try solver.minMax(10, f: f)
-    results.result
-    results.value
-    results.iterations
-}
-catch SolverError.MaxIterationsReached(let results) {
-    print("Max Iter Reached")
-    results.result
-    results.value
-    results.iterations
-}
-catch SolverError.FunctionChangeBelowTolerance(let results) {
-    print("Function Change Below Tolerance")
-    results.result
-    results.value
-    results.iterations
-}
+//func f(x: Double) -> Double {
+//    return pow(x, 3) - cos(x)
+//    //return exp(x)
+//}
+//
+//func dfdx(x: Double) -> Double {
+//    return 2*pow(x,3) - 15*pow(x,2) + 2*x - 4
+//}
+//
+//let length = 300
+//let cosine = (0..<length).map({ f(Double($0)/Double(100)) })
+//for num in cosine {
+//    XCPCaptureValue("cos", value: num)
+//}
+//
+//var solver: Solver = NewtonSolver()
+////solver.deriv = dfdx
+//do {
+//    //    let results = try solver.solve(10, f: finiteDifference(f, increment: 0.0000001)/*, gradient: dfdx*/)
+//    let results = try solver.solve(10, f: f/*, gradient: dfdx*/)
+//    let results2 = try solver.minMax(10, f: f)
+//    results.result
+//    results.value
+//    results.iterations
+//}
+//catch SolverError.MaxIterationsReached(let results) {
+//    print("Max Iter Reached")
+//    results.result
+//    results.value
+//    results.iterations
+//}
+//catch SolverError.FunctionChangeBelowTolerance(let results) {
+//    print("Function Change Below Tolerance")
+//    results.result
+//    results.value
+//    results.iterations
+//}
 
 //Solver.solve(solver)
 
@@ -110,3 +111,102 @@ catch SolverError.FunctionChangeBelowTolerance(let results) {
 //e[0..<2] = [4, 5]
 //e
 //f
+
+//func curve(x: Double, coeff: [Double]) -> Double {
+//    let a = coeff[0]
+//    let b = coeff[1]
+//    let c = coeff[2]
+//    let d = coeff[3]
+//    let y = a * pow(x, 3) + b * pow(x, 2) + c * x + d
+//    return y
+//}
+//
+//var dataPoints: [(Double, Double)] = [
+//    (-10, 104),
+//    (-5, 141.5),
+//    (0, 4),
+//    (5, 66.5),
+//    (10, 704)
+//]
+//
+//func error(coeff: [Double]) -> Double {
+//    var errors = [Double]()
+//    for (x, y) in dataPoints {
+//        let value = curve(x, coeff: coeff)
+//        let error = value - y
+//        errors.append(error)
+//    }
+//    let totalError = sum(sq(errors))
+//    return totalError
+//}
+//
+////let guess = [0.51,4.1,-20.1,4.1]
+////var solver = NewtonSolver()
+////SolverVar.self
+////do {
+////    try solver.solve(guess, f: error)
+////}
+////catch SolverError.MaxIterationsReached(let results) {
+////    print("Max Iter Reached")
+////    results.result
+////    results.value
+////    results.iterations
+////}
+////catch SolverError.FunctionChangeBelowTolerance(let results) {
+////    print("Function Change Below Tolerance")
+////    results.result
+////    results.value
+////    results.iterations
+////}
+
+//let b = finiteDifference({ return curve(2, coeff: $0) }, increment: 0.0001)([1,1,1,1])
+
+func plot(xs: [Double], name: String) {
+    for x in xs {
+        XCPCaptureValue(name, value: x)
+    }
+}
+
+func myfunc(x: [Double]) -> Double {
+    return pow(x[0], 2) + pow(x[1], 3)
+}
+let deriv = finiteDifference(myfunc, increment: 0.0001)
+deriv([4,4])
+
+let testXs = (-1000...1000).map({ Double($0) / Double(100) })
+let testYs = testXs.map({ curve($0, coeff: [0.5,4,-20,4]) })
+plot(testYs, name: "xoxo")
+
+let guess = [0.1,0.1,0.1,1]
+
+//func error(x:[Double])->Double {
+//    return pow(x[0], 2) + pow(x[1], 2)
+//}
+//
+//func gradient(x: [Double]) -> [Double] {
+//    let grad = [
+//        2*x[0],
+//        2*x[1]
+//    ]
+//    return grad
+//}
+//
+//let guess: [Double] = [10, 10]
+
+var solver = NewtonSolver()
+SolverVar.self
+do {
+    try solver.solve(guess, f: error/*, gradient: gradient*/)
+}
+catch SolverError.MaxIterationsReached(let results) {
+    print("Max Iter Reached")
+    results.result
+    results.value
+    results.iterations
+}
+catch SolverError.FunctionChangeBelowTolerance(let results) {
+    print("Function Change Below Tolerance")
+    results.result
+    results.value
+    results.iterations
+}

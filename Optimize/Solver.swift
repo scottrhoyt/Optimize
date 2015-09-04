@@ -1,38 +1,59 @@
 import Foundation
+import Surge
 
-public typealias SolverVar = Double
-public typealias SolverFunc = (SolverVar) -> SolverVar
+public typealias SolverUnit = Double
+public typealias SolverVar = Array<SolverUnit>
+public typealias SolverFunc = (SolverVar) -> SolverUnit
+public typealias GradientFunc = (SolverVar) -> SolverVar
 
-public func finiteDifference(f: SolverFunc, increment: Double) -> SolverFunc {
+//public func finiteDifference(f: SolverFunc, increment: Double) -> SolverFunc {
+//    let approx = {
+//        (x: SolverVar) -> SolverVar in
+//        return (f(x+increment) + (f(x) * -1))/increment
+//    }
+//    return approx
+//}
+
+public func finiteDifference(f: SolverFunc, increment: Double) -> GradientFunc {
     let approx = {
         (x: SolverVar) -> SolverVar in
-        return (f(x+increment) - f(x))/increment
+        let fx = f(x)
+        var gradientVector = SolverVar(count: x.count, repeatedValue: 0)
+        for var i = 0; i < x.count; i++ {
+            var incrementVector = SolverVar(count: x.count, repeatedValue: 0)
+            incrementVector[i] = increment
+            //print(incrementVector)
+            gradientVector[i] = (f(x+incrementVector) - fx)/increment
+        }
+        return gradientVector
     }
     return approx
 }
 
+
 public protocol Solver {
-    var increment: Double { get set }
+    var increment: SolverUnit { get set }
     var maxIter: Int { get set }
-    var tolerance: Double { get set }
-    var limitTolerance: Double { get set }
+    var tolerance: SolverUnit { get set }
+    var limitTolerance: SolverUnit { get set }
     
-    func solve(guess: SolverVar, f: SolverFunc, gradient: SolverFunc?) throws -> SolverResults
-    func minMax(guess: SolverVar, f: SolverFunc, gradient: SolverFunc?, gradient2: SolverFunc?) throws -> SolverResults
+    func solve(guess: SolverVar, f: SolverFunc, gradient: GradientFunc?) throws -> SolverResults
+    func minMax(guess: SolverVar, f: SolverFunc, gradient: GradientFunc?, gradient2: GradientFunc?) throws -> SolverResults
     
-    func genNextX(x: SolverVar, value: Double, gradient: Double) -> SolverVar
+    func genNextX(x: SolverVar, value: Double, gradient: SolverVar) -> SolverVar
 }
 
 public extension Solver {
     
-    public func minMax(guess: SolverVar, f: SolverFunc, gradient: SolverFunc? = nil, gradient2: SolverFunc? = nil) throws -> SolverResults {
+    public func minMax(guess: SolverVar, f: SolverFunc, gradient: GradientFunc? = nil, gradient2: GradientFunc? = nil) throws -> SolverResults {
         
         let deriv = gradient != nil ? gradient! : finiteDifference(f, increment: increment)
-        return try solve(guess, f: deriv, gradient: gradient2)
+        let derivMagnitude = { (x: SolverVar) -> SolverUnit in magnitude(deriv(x)) }
+        return try solve(guess, f: derivMagnitude, gradient: gradient2)
         
     }
     
-    public func solve(guess: SolverVar, f: SolverFunc, gradient: SolverFunc? = nil) throws -> SolverResults {
+    public func solve(guess: SolverVar, f: SolverFunc, gradient: GradientFunc? = nil) throws -> SolverResults {
         
         let deriv = gradient != nil ? gradient! : finiteDifference(f, increment: increment)
         
@@ -41,7 +62,7 @@ public extension Solver {
         repeat {
             values.result = values.iterations == 0 ? guess : genNextX(values.result, value: values.value, gradient: values.gradient)
             values.value = f(values.result)
-            values.valueChange = values.iterations == 0 ? Double.infinity : abs(values.value - values.lastValue)
+            values.valueChange = values.iterations == 0 ? SolverUnit.infinity : abs(values.value - values.lastValue)
             values.gradient = deriv(values.result)
             log(values)
             values.lastValue = values.value

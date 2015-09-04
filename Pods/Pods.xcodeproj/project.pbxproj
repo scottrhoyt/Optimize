@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A5D4364894B5F8FF7735159AAFC9B5 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D114465714C42A6B24ED4A4F8366E17 /* Exponential.swift */; };
-		24DBE952E1F83E8178DBD7ED40C15CC5 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238C43B5E357B0B03BDD928FC1E83038 /* Arithmetic.swift */; };
-		2E15208167D2A1F48F0C98494AD5C2FF /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D85E18B48339DCA2D2340D7CA246A0 /* FFT.swift */; };
-		32F9E43DEAF74172FB6BB4E4DDFDD785 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42154CB3FFF86203655F516CC65D025 /* Auxiliary.swift */; };
+		077FF212F6B14292CADC38B9D288CB95 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA053B91A15324A32B63CEE61716960 /* FFT.swift */; };
+		09894F4AA37CC88086CA541335846EA8 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */; };
+		101B38D3D3D7CDF39BB118DF880DCF33 /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */; };
+		1C44E87472B69D4389B0A374F7F166C7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */; };
 		5DD78319BB14287D70AAB9137C571556 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7FB5FE2432A84CEB21BB0396A33B46 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE0DA21095C0DC6990B94E5B8C1B83F /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */; };
 		67AC9368D3B9C4ADC3B201F4F260CBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3672CEDF3E053574242EFE265F17634B /* Foundation.framework */; };
-		819C10253670994AEB7E161E393A5A74 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B38C723F4ED1C0405ED803F44FF52D3 /* Hyperbolic.swift */; };
 		8251EFD498EE6DC0D33F1570182233D2 /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		865A411157A9CC081C49BA60DADD1829 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61A666B5F4A45CE124709FE99BF8C5 /* Matrix.swift */; };
 		90A4AFC464BA0839CD4589ABDC16CB1F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92364A8E377305993BC0B71916CC4F /* Accelerate.framework */; };
-		AA8D222865201D179F9C5F48BDB33734 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858FF91522B052C966E46152B4A5E179 /* Power.swift */; };
-		B2521A78EA864C5B0154B43A74C095F4 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C82A2351AE9D66F09DFC0ECA6689DC /* Trigonometric.swift */; };
+		AE479D1606BC4E29B6F505FDAB1D7BA0 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */; };
+		B08D98226788F422D83794C1421262F5 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445966EE7B93932AA357393DED4E03 /* Power.swift */; };
 		B816EA7D351FE57BB5C17B16EACB11C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3672CEDF3E053574242EFE265F17634B /* Foundation.framework */; };
-		C92F1FC5890919B9571D267EA76452FB /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA13867B4557896943ADFB0DCA0074F /* Surge-dummy.m */; };
+		B8F3D9E00A64D9078C49D199892972A2 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */; };
 		D181748D5891525B6B3FFFE0B7A77E4B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D202321428C0C0CE309282D5ACB3581 /* Pods-dummy.m */; };
+		ECDD6926B74F480CF38C5F2B60AB4744 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E834F172891CE35160FFF1F5BBB13E7 /* PBXContainerItemProxy */ = {
+		E81857D827B769B60E3E65AC6C541A16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -35,36 +35,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		177ACD7D6DC142D5D02E8E5EAB04CE1B /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trigonometric.swift; sourceTree = "<group>"; };
+		1AE19C0B0009087446B9457DC8F79499 /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
 		1B4799EA35328DC88BAA8B86D4D44F6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		1D114465714C42A6B24ED4A4F8366E17 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
-		238C43B5E357B0B03BDD928FC1E83038 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Source/Arithmetic.swift; sourceTree = "<group>"; };
-		34D85E18B48339DCA2D2340D7CA246A0 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
 		3672CEDF3E053574242EFE265F17634B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3934570BB1D12B95409EB0F844E606F7 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
 		395E9ABF60FE8C4320F4B703E39548EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		4D02EBF8BF48EFA05929159B5769A9F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DA13867B4557896943ADFB0DCA0074F /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
+		6DE4BA5576D1FF377152A162E8776B49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73979AD0787E1C7249601F92990D8D02 /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C82A2351AE9D66F09DFC0ECA6689DC /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7B38C723F4ED1C0405ED803F44FF52D3 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
-		858FF91522B052C966E46152B4A5E179 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Power.swift; path = Source/Power.swift; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		8D202321428C0C0CE309282D5ACB3581 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		8D2171792AB0237BEAE3F427E11E4177 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE61A666B5F4A45CE124709FE99BF8C5 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
+		93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hyperbolic.swift; sourceTree = "<group>"; };
+		9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
+		ADA053B91A15324A32B63CEE61716960 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FFT.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Surge-Private.xcconfig"; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		CD7FB5FE2432A84CEB21BB0396A33B46 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
-		D42154CB3FFF86203655F516CC65D025 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
-		D6616A1FD61514F6CDB86D1DA4BB8888 /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
-		DD14CB9A878B53829BEB3B87665B15BC /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Surge.modulemap; sourceTree = "<group>"; };
+		E68EF9F8B77D5B50CE22F0570B11C357 /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Surge.modulemap; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA445966EE7B93932AA357393DED4E03 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 		FB92364A8E377305993BC0B71916CC4F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		222FC648CCE1E5798717FCABF8745147 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8872341A22AFA30571296032839B7C4 /* Surge */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3983FFB0E5FD60A44A911545735EE0D9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +103,31 @@
 				3983FFB0E5FD60A44A911545735EE0D9 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B730B4FE2D100FA0C02244664D68A2C /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				5245C09ED34191E432B81D54A3966D39 /* Source */,
+				D99D4E10F848FDD32E818686E42C3433 /* Support Files */,
+			);
+			name = Surge;
+			path = /Users/scottrhoyt/Development/Surge;
+			sourceTree = "<absolute>";
+		};
+		5245C09ED34191E432B81D54A3966D39 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */,
+				9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */,
+				CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */,
+				ADA053B91A15324A32B63CEE61716960 /* FFT.swift */,
+				93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */,
+				8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */,
+				FA445966EE7B93932AA357393DED4E03 /* Power.swift */,
+				0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -131,27 +148,12 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		7B7FC1D21840F6DBF0893BC9CCAD8A4B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D02EBF8BF48EFA05929159B5769A9F2 /* Info.plist */,
-				DD14CB9A878B53829BEB3B87665B15BC /* Surge.modulemap */,
-				D6616A1FD61514F6CDB86D1DA4BB8888 /* Surge.xcconfig */,
-				BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */,
-				6DA13867B4557896943ADFB0DCA0074F /* Surge-dummy.m */,
-				177ACD7D6DC142D5D02E8E5EAB04CE1B /* Surge-prefix.pch */,
-				D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Surge";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CC1D51153FF7EACE87A8AFA924FDD1F0 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				222FC648CCE1E5798717FCABF8745147 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
@@ -165,6 +167,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CC1D51153FF7EACE87A8AFA924FDD1F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B730B4FE2D100FA0C02244664D68A2C /* Surge */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,20 +184,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8872341A22AFA30571296032839B7C4 /* Surge */ = {
+		D99D4E10F848FDD32E818686E42C3433 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				238C43B5E357B0B03BDD928FC1E83038 /* Arithmetic.swift */,
-				D42154CB3FFF86203655F516CC65D025 /* Auxiliary.swift */,
-				1D114465714C42A6B24ED4A4F8366E17 /* Exponential.swift */,
-				34D85E18B48339DCA2D2340D7CA246A0 /* FFT.swift */,
-				7B38C723F4ED1C0405ED803F44FF52D3 /* Hyperbolic.swift */,
-				AE61A666B5F4A45CE124709FE99BF8C5 /* Matrix.swift */,
-				858FF91522B052C966E46152B4A5E179 /* Power.swift */,
-				74C82A2351AE9D66F09DFC0ECA6689DC /* Trigonometric.swift */,
-				7B7FC1D21840F6DBF0893BC9CCAD8A4B /* Support Files */,
+				6DE4BA5576D1FF377152A162E8776B49 /* Info.plist */,
+				E68EF9F8B77D5B50CE22F0570B11C357 /* Surge.modulemap */,
+				1AE19C0B0009087446B9457DC8F79499 /* Surge.xcconfig */,
+				BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */,
+				FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */,
+				3934570BB1D12B95409EB0F844E606F7 /* Surge-prefix.pch */,
+				D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */,
 			);
-			path = Surge;
+			name = "Support Files";
+			path = "../Optimize/Pods/Target Support Files/Surge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				88C70E99B5250CC1E598E7EF417F5F88 /* PBXTargetDependency */,
+				9258993CFC367B2CE1FF873F34BB16DD /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -234,7 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD3AD32C3A81A012509DF6188FECFBB /* Build configuration list for PBXNativeTarget "Surge" */;
 			buildPhases = (
-				4BFB8BFB2ACEA510E238739F5D2AF4FB /* Sources */,
+				785B157C6ABF7D7CB33E9E9E786B9CBF /* Sources */,
 				25F24A3591E730A686C9DC0D092C6BA8 /* Frameworks */,
 				E8FDC1811F5EE820E9778A45F4FA3E30 /* Headers */,
 			);
@@ -275,19 +284,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BFB8BFB2ACEA510E238739F5D2AF4FB /* Sources */ = {
+		785B157C6ABF7D7CB33E9E9E786B9CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DBE952E1F83E8178DBD7ED40C15CC5 /* Arithmetic.swift in Sources */,
-				32F9E43DEAF74172FB6BB4E4DDFDD785 /* Auxiliary.swift in Sources */,
-				07A5D4364894B5F8FF7735159AAFC9B5 /* Exponential.swift in Sources */,
-				2E15208167D2A1F48F0C98494AD5C2FF /* FFT.swift in Sources */,
-				819C10253670994AEB7E161E393A5A74 /* Hyperbolic.swift in Sources */,
-				865A411157A9CC081C49BA60DADD1829 /* Matrix.swift in Sources */,
-				AA8D222865201D179F9C5F48BDB33734 /* Power.swift in Sources */,
-				C92F1FC5890919B9571D267EA76452FB /* Surge-dummy.m in Sources */,
-				B2521A78EA864C5B0154B43A74C095F4 /* Trigonometric.swift in Sources */,
+				B8F3D9E00A64D9078C49D199892972A2 /* Arithmetic.swift in Sources */,
+				5FE0DA21095C0DC6990B94E5B8C1B83F /* Auxiliary.swift in Sources */,
+				09894F4AA37CC88086CA541335846EA8 /* Exponential.swift in Sources */,
+				077FF212F6B14292CADC38B9D288CB95 /* FFT.swift in Sources */,
+				AE479D1606BC4E29B6F505FDAB1D7BA0 /* Hyperbolic.swift in Sources */,
+				1C44E87472B69D4389B0A374F7F166C7 /* Matrix.swift in Sources */,
+				B08D98226788F422D83794C1421262F5 /* Power.swift in Sources */,
+				101B38D3D3D7CDF39BB118DF880DCF33 /* Surge-dummy.m in Sources */,
+				ECDD6926B74F480CF38C5F2B60AB4744 /* Trigonometric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,11 +311,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88C70E99B5250CC1E598E7EF417F5F88 /* PBXTargetDependency */ = {
+		9258993CFC367B2CE1FF873F34BB16DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Surge;
 			target = D7667194B079E47C17B1DD17AE7942D0 /* Surge */;
-			targetProxy = 6E834F172891CE35160FFF1F5BBB13E7 /* PBXContainerItemProxy */;
+			targetProxy = E81857D827B769B60E3E65AC6C541A16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

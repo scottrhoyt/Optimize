@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1EA60D769647DCC07C6C9039BDA0EE5AC253B39",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F65A476A58933AE6B22EAE730A194955F98FC66" : 0,
+    "E1EA60D769647DCC07C6C9039BDA0EE5AC253B39" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1C6BEB6-8729-4E3C-AABC-DC2429B92829",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F65A476A58933AE6B22EAE730A194955F98FC66" : "Surge\/",
+    "E1EA60D769647DCC07C6C9039BDA0EE5AC253B39" : "Optimize\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Optimize",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Optimize.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:scottrhoyt\/Surge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F65A476A58933AE6B22EAE730A194955F98FC66"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:scottrhoyt\/Optimize.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1EA60D769647DCC07C6C9039BDA0EE5AC253B39"
+    }
+  ]
+}

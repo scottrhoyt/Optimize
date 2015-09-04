@@ -16,6 +16,7 @@
 		3B72EE911B98C183004A7EA7 /* SolverError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8B1B98C183004A7EA7 /* SolverError.swift */; };
 		3B72EE921B98C183004A7EA7 /* SolverResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */; };
 		3B72EE931B98C183004A7EA7 /* SolverValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */; };
+		3B7D76011B9A4B860078EDF0 /* TestFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D76001B9A4B860078EDF0 /* TestFuncs.swift */; settings = {ASSET_TAGS = (); }; };
 		B37F25A26BDA5070D011BB6F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD3086556DF2F57963BECF5 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		3B72EE8C1B98C183004A7EA7 /* SolverResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverResults.swift; sourceTree = "<group>"; };
 		3B72EE8D1B98C183004A7EA7 /* SolverValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolverValues.swift; sourceTree = "<group>"; };
 		3B72EE941B98C7E9004A7EA7 /* Examples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Examples.playground; sourceTree = "<group>"; };
+		3B7D76001B9A4B860078EDF0 /* TestFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFuncs.swift; sourceTree = "<group>"; };
 		6F47D9F1A732A2471B78974E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EDD3086556DF2F57963BECF5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD288B4F9EC807B5290D5BD2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3B72EE711B98C136004A7EA7 /* Optimize.h */,
 				3B72EE731B98C136004A7EA7 /* Info.plist */,
 				3B72EE941B98C7E9004A7EA7 /* Examples.playground */,
+				3B7D76001B9A4B860078EDF0 /* TestFuncs.swift */,
 			);
 			path = Optimize;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				3B72EE921B98C183004A7EA7 /* SolverResults.swift in Sources */,
 				3B72EE911B98C183004A7EA7 /* SolverError.swift in Sources */,
 				3B72EE8F1B98C183004A7EA7 /* NewtonSolver.swift in Sources */,
+				3B7D76011B9A4B860078EDF0 /* TestFuncs.swift in Sources */,
 				3B72EE901B98C183004A7EA7 /* Solver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
