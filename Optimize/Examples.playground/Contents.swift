@@ -5,7 +5,7 @@ import XCPlayground
 import Optimize
 
 func f(x: Double) -> Double {
-    return 0.25 * pow(x, 4) - pow(x, 3) + pow(x, 2) - 1
+    return pow(x, 3) - cos(x)
     //return exp(x)
 }
 
