@@ -7,73 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077FF212F6B14292CADC38B9D288CB95 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA053B91A15324A32B63CEE61716960 /* FFT.swift */; };
-		09894F4AA37CC88086CA541335846EA8 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */; };
-		101B38D3D3D7CDF39BB118DF880DCF33 /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */; };
-		1C44E87472B69D4389B0A374F7F166C7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */; };
+		09E29BAF013E973EC3001CD1A81410B0 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802A341A919813CA5F4B7B65E5BFCD40 /* FFT.swift */; };
+		1389320982FB4525549CF97D2704FF6F /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EF1E98D52471C983E62C2D7A0EF7ED /* Trigonometric.swift */; };
+		285635681715CAE04ADEDF8952686FC4 /* FloatingTypeOperationsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309951975E375F4483AE1DAEB3939E75 /* FloatingTypeOperationsExtensions.swift */; };
+		2947C5FFFB9B39759270AB16B4185207 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187AFFECC9AC7AC0CDDD447716E04BD /* Power.swift */; };
+		2F2D02F233888888CA88A6C3F9D66E77 /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564432231FF7CB742C9B055B892579F /* Exponential.swift */; };
+		3773B9F455F349DE70F0A0DB1C29FC27 /* ArrayPowerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684BCC2384DF3624C7BEFD306EC30E7 /* ArrayPowerExtensions.swift */; };
+		433D6F7102C3F81F945C600FBCF0328D /* VectorPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D09D564C466DF48B5684457DF56AC /* VectorPower.swift */; };
+		4FAC0F86FC37F4DACCF81438F0B7B021 /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1E25A5875646BC1FB6592A623FDC56 /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55AE0E1F86330E38EE9A5053FB210AF7 /* FloatingTypePowerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438C4B893B420632D9A597CFCEC6A6AF /* FloatingTypePowerExtensions.swift */; };
 		5DD78319BB14287D70AAB9137C571556 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7FB5FE2432A84CEB21BB0396A33B46 /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FE0DA21095C0DC6990B94E5B8C1B83F /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */; };
-		67AC9368D3B9C4ADC3B201F4F260CBFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3672CEDF3E053574242EFE265F17634B /* Foundation.framework */; };
-		8251EFD498EE6DC0D33F1570182233D2 /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90A4AFC464BA0839CD4589ABDC16CB1F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB92364A8E377305993BC0B71916CC4F /* Accelerate.framework */; };
-		AE479D1606BC4E29B6F505FDAB1D7BA0 /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */; };
-		B08D98226788F422D83794C1421262F5 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA445966EE7B93932AA357393DED4E03 /* Power.swift */; };
-		B816EA7D351FE57BB5C17B16EACB11C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3672CEDF3E053574242EFE265F17634B /* Foundation.framework */; };
-		B8F3D9E00A64D9078C49D199892972A2 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */; };
+		64EB7299B0CFC2C228FE6FDFBF1F4396 /* ArrayArithmeticExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2D84832EEA40B32D094AFA405B5253 /* ArrayArithmeticExtensions.swift */; };
+		6A3B6A07CE4F512901634D69002BB150 /* FloatingTypeStatisticsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED768AA66C9BE878E7035CDA725C9F3B /* FloatingTypeStatisticsExtensions.swift */; };
+		6D808C1F73C581237870D25CA9F38420 /* VectorStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB94DC95CDE3DA818182CA25C833C00 /* VectorStatistics.swift */; };
+		6EB99BBA27C6E0FEB2F58FBF538B31FC /* FloatingTypeArithmeticExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6053E139021F58D5B9F6EBA48E99FE5 /* FloatingTypeArithmeticExtensions.swift */; };
+		7D765B072D41D75CDCF8897F2289CFE1 /* ArrayStatisticsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ECD216B1BA63B3BFF2D2DB4424E69F /* ArrayStatisticsExtensions.swift */; };
+		8251526473C552F925C8216E9210AB51 /* ArrayAuxiliaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF90E0E6957FC7A216609F60082EEE3 /* ArrayAuxiliaryExtensions.swift */; };
+		9FEBA9FEA51087EE1EA36F8E99B1A8C8 /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 458293FCE20CA4C2ED08EBAB0B4375AB /* Surge-dummy.m */; };
+		A2F4E141992BBF2E2F3D6960DBAE3962 /* ArrayOperationsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EBA9FE43A3AA4A3D82DB3895BF1BF7 /* ArrayOperationsExtensions.swift */; };
+		ABE4AEFB99C5D7EF789047D96929B021 /* VectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E57B137DCBBE8A534CE6F3C8ADC08F /* VectorOperations.swift */; };
+		B223AD4F03CB41595E44B5C68633EF61 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838F9516F4C308982E665F8DAEAB612 /* Arithmetic.swift */; };
+		B816EA7D351FE57BB5C17B16EACB11C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE68098C8E5178A098EEDE9CB955A57 /* Foundation.framework */; };
+		C15646AC451DD55749FAABDF0FD9014C /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DE779D334AC57F5A4185796400E6D /* Hyperbolic.swift */; };
+		C18F8ACCB93AB91DA1F59CDA14E6072E /* VectorArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4FE1A38E9C96EA8865E86861B614F /* VectorArithmetic.swift */; };
 		D181748D5891525B6B3FFFE0B7A77E4B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D202321428C0C0CE309282D5ACB3581 /* Pods-dummy.m */; };
-		ECDD6926B74F480CF38C5F2B60AB4744 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */; };
+		D75B6C9D214B252B10BAC106C2B6727A /* FloatingTypeAuxiliaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84910D074AB242E28C06C0EA010BDF82 /* FloatingTypeAuxiliaryExtensions.swift */; };
+		EA238B978DB0DC81810D2678ED631B0B /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E699CC4B2DC26E68832762505887E1 /* Auxiliary.swift */; };
+		EC6B2078A3FD00DBA18A99149753FE5E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0873AA650D3DCF12F3D4519DAB0CED /* Accelerate.framework */; };
+		F231B2396180F517E84D9EC7FE76CBCF /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA995C12D64B941F6CD06B1AF3BCC290 /* Matrix.swift */; };
+		FA49AF15029AD98726E17ACEF9E630FC /* VectorAuxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5DD19BF5D08A407A1F34458F954604 /* VectorAuxiliary.swift */; };
+		FF2D04C6E891D1791EFE203547CD2D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE68098C8E5178A098EEDE9CB955A57 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BDFE46D2CE7D46E7BA1ECC5626457CD0 /* PBXContainerItemProxy */ = {
+		9D24399331D48ADA67EFEEA2B7D05B6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7667194B079E47C17B1DD17AE7942D0;
+			remoteGlobalIDString = CB02C682F5B8060BCE130C75685E16F2;
 			remoteInfo = Surge;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trigonometric.swift; sourceTree = "<group>"; };
-		1AE19C0B0009087446B9457DC8F79499 /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
+		1722C3FBFD8E1E1AE960844C9DB1DDFB /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E1EEFD5B39BE6C695D6D52B465B77E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4799EA35328DC88BAA8B86D4D44F6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		3672CEDF3E053574242EFE265F17634B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3934570BB1D12B95409EB0F844E606F7 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		2187AFFECC9AC7AC0CDDD447716E04BD /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
+		309951975E375F4483AE1DAEB3939E75 /* FloatingTypeOperationsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTypeOperationsExtensions.swift; sourceTree = "<group>"; };
+		38E57B137DCBBE8A534CE6F3C8ADC08F /* VectorOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VectorOperations.swift; sourceTree = "<group>"; };
 		395E9ABF60FE8C4320F4B703E39548EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
-		6DE4BA5576D1FF377152A162E8776B49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73979AD0787E1C7249601F92990D8D02 /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438C4B893B420632D9A597CFCEC6A6AF /* FloatingTypePowerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTypePowerExtensions.swift; sourceTree = "<group>"; };
+		458293FCE20CA4C2ED08EBAB0B4375AB /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		4684BCC2384DF3624C7BEFD306EC30E7 /* ArrayPowerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayPowerExtensions.swift; sourceTree = "<group>"; };
+		49ECD216B1BA63B3BFF2D2DB4424E69F /* ArrayStatisticsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayStatisticsExtensions.swift; sourceTree = "<group>"; };
+		5564432231FF7CB742C9B055B892579F /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
+		5D2D84832EEA40B32D094AFA405B5253 /* ArrayArithmeticExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayArithmeticExtensions.swift; sourceTree = "<group>"; };
+		6BD228974582651177DDBF336DFAF369 /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Surge.modulemap; sourceTree = "<group>"; };
+		6DF90E0E6957FC7A216609F60082EEE3 /* ArrayAuxiliaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayAuxiliaryExtensions.swift; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		802A341A919813CA5F4B7B65E5BFCD40 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FFT.swift; sourceTree = "<group>"; };
+		83691A8F0590119A1AB06D32A9C5EE12 /* Surge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Surge-Private.xcconfig"; sourceTree = "<group>"; };
+		84910D074AB242E28C06C0EA010BDF82 /* FloatingTypeAuxiliaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTypeAuxiliaryExtensions.swift; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 		8D202321428C0C0CE309282D5ACB3581 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		8D2171792AB0237BEAE3F427E11E4177 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hyperbolic.swift; sourceTree = "<group>"; };
-		9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
-		ADA053B91A15324A32B63CEE61716960 /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FFT.swift; sourceTree = "<group>"; };
+		916B2A1B957663AC31C1DD0D00C76769 /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
+		A24D09D564C466DF48B5684457DF56AC /* VectorPower.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VectorPower.swift; sourceTree = "<group>"; };
+		AA995C12D64B941F6CD06B1AF3BCC290 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		B838F9516F4C308982E665F8DAEAB612 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Arithmetic.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Surge-Private.xcconfig"; sourceTree = "<group>"; };
+		BE5DD19BF5D08A407A1F34458F954604 /* VectorAuxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VectorAuxiliary.swift; sourceTree = "<group>"; };
+		C8EBA9FE43A3AA4A3D82DB3895BF1BF7 /* ArrayOperationsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayOperationsExtensions.swift; sourceTree = "<group>"; };
+		CA1E25A5875646BC1FB6592A623FDC56 /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		CD7FB5FE2432A84CEB21BB0396A33B46 /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Exponential.swift; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
-		E68EF9F8B77D5B50CE22F0570B11C357 /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Surge.modulemap; sourceTree = "<group>"; };
+		DB5DE779D334AC57F5A4185796400E6D /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hyperbolic.swift; sourceTree = "<group>"; };
+		DC0873AA650D3DCF12F3D4519DAB0CED /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		E3EF1E98D52471C983E62C2D7A0EF7ED /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trigonometric.swift; sourceTree = "<group>"; };
+		E4E699CC4B2DC26E68832762505887E1 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA445966EE7B93932AA357393DED4E03 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
-		FB92364A8E377305993BC0B71916CC4F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		EAF4FE1A38E9C96EA8865E86861B614F /* VectorArithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VectorArithmetic.swift; sourceTree = "<group>"; };
+		EBB94DC95CDE3DA818182CA25C833C00 /* VectorStatistics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VectorStatistics.swift; sourceTree = "<group>"; };
+		ED768AA66C9BE878E7035CDA725C9F3B /* FloatingTypeStatisticsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTypeStatisticsExtensions.swift; sourceTree = "<group>"; };
+		F6053E139021F58D5B9F6EBA48E99FE5 /* FloatingTypeArithmeticExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FloatingTypeArithmeticExtensions.swift; sourceTree = "<group>"; };
+		FD22F7A78FEBEC8EFD2BD94661BBDB4D /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		FEE68098C8E5178A098EEDE9CB955A57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25F24A3591E730A686C9DC0D092C6BA8 /* Frameworks */ = {
+		3C9AF1B562AF619BCEB0E895B14AFFBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A4AFC464BA0839CD4589ABDC16CB1F /* Accelerate.framework in Frameworks */,
-				67AC9368D3B9C4ADC3B201F4F260CBFD /* Foundation.framework in Frameworks */,
+				EC6B2078A3FD00DBA18A99149753FE5E /* Accelerate.framework in Frameworks */,
+				FF2D04C6E891D1791EFE203547CD2D71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +121,8 @@
 		3983FFB0E5FD60A44A911545735EE0D9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				FB92364A8E377305993BC0B71916CC4F /* Accelerate.framework */,
-				3672CEDF3E053574242EFE265F17634B /* Foundation.framework */,
+				DC0873AA650D3DCF12F3D4519DAB0CED /* Accelerate.framework */,
+				FEE68098C8E5178A098EEDE9CB955A57 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -103,31 +133,6 @@
 				3983FFB0E5FD60A44A911545735EE0D9 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4B730B4FE2D100FA0C02244664D68A2C /* Surge */ = {
-			isa = PBXGroup;
-			children = (
-				5245C09ED34191E432B81D54A3966D39 /* Source */,
-				D99D4E10F848FDD32E818686E42C3433 /* Support Files */,
-			);
-			name = Surge;
-			path = /Users/scottrhoyt/Development/Surge;
-			sourceTree = "<absolute>";
-		};
-		5245C09ED34191E432B81D54A3966D39 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				507859EEA9FA66032D91DA28F4696C27 /* Arithmetic.swift */,
-				9628B8E3B6E32D496D51DDA5FBF0F29B /* Auxiliary.swift */,
-				CDF13361EAAF8547DB6CCB98A5DC44FB /* Exponential.swift */,
-				ADA053B91A15324A32B63CEE61716960 /* FFT.swift */,
-				93D4F4F9F5B2B43EAD87C7FDF8C19B69 /* Hyperbolic.swift */,
-				8954EF124B1F75DD6A593D438553E91E /* Matrix.swift */,
-				FA445966EE7B93932AA357393DED4E03 /* Power.swift */,
-				0D06BF99EDCF8C507113ED729BC9A20D /* Trigonometric.swift */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -148,6 +153,36 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		77892112F7B7E4C70D467ABA6A40AF53 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B838F9516F4C308982E665F8DAEAB612 /* Arithmetic.swift */,
+				5D2D84832EEA40B32D094AFA405B5253 /* ArrayArithmeticExtensions.swift */,
+				6DF90E0E6957FC7A216609F60082EEE3 /* ArrayAuxiliaryExtensions.swift */,
+				C8EBA9FE43A3AA4A3D82DB3895BF1BF7 /* ArrayOperationsExtensions.swift */,
+				4684BCC2384DF3624C7BEFD306EC30E7 /* ArrayPowerExtensions.swift */,
+				49ECD216B1BA63B3BFF2D2DB4424E69F /* ArrayStatisticsExtensions.swift */,
+				E4E699CC4B2DC26E68832762505887E1 /* Auxiliary.swift */,
+				5564432231FF7CB742C9B055B892579F /* Exponential.swift */,
+				802A341A919813CA5F4B7B65E5BFCD40 /* FFT.swift */,
+				F6053E139021F58D5B9F6EBA48E99FE5 /* FloatingTypeArithmeticExtensions.swift */,
+				84910D074AB242E28C06C0EA010BDF82 /* FloatingTypeAuxiliaryExtensions.swift */,
+				309951975E375F4483AE1DAEB3939E75 /* FloatingTypeOperationsExtensions.swift */,
+				438C4B893B420632D9A597CFCEC6A6AF /* FloatingTypePowerExtensions.swift */,
+				ED768AA66C9BE878E7035CDA725C9F3B /* FloatingTypeStatisticsExtensions.swift */,
+				DB5DE779D334AC57F5A4185796400E6D /* Hyperbolic.swift */,
+				AA995C12D64B941F6CD06B1AF3BCC290 /* Matrix.swift */,
+				2187AFFECC9AC7AC0CDDD447716E04BD /* Power.swift */,
+				E3EF1E98D52471C983E62C2D7A0EF7ED /* Trigonometric.swift */,
+				EAF4FE1A38E9C96EA8865E86861B614F /* VectorArithmetic.swift */,
+				BE5DD19BF5D08A407A1F34458F954604 /* VectorAuxiliary.swift */,
+				38E57B137DCBBE8A534CE6F3C8ADC08F /* VectorOperations.swift */,
+				A24D09D564C466DF48B5684457DF56AC /* VectorPower.swift */,
+				EBB94DC95CDE3DA818182CA25C833C00 /* VectorStatistics.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +192,31 @@
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		958C3EF5927A82E9810F6E7B8CC58DF9 /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				77892112F7B7E4C70D467ABA6A40AF53 /* Source */,
+				9E0B970EEF08FBD3ABC0BBC98BAAA0DD /* Support Files */,
+			);
+			name = Surge;
+			path = /Users/scottrhoyt/Development/Surge;
+			sourceTree = "<absolute>";
+		};
+		9E0B970EEF08FBD3ABC0BBC98BAAA0DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E1EEFD5B39BE6C695D6D52B465B77E /* Info.plist */,
+				6BD228974582651177DDBF336DFAF369 /* Surge.modulemap */,
+				916B2A1B957663AC31C1DD0D00C76769 /* Surge.xcconfig */,
+				83691A8F0590119A1AB06D32A9C5EE12 /* Surge-Private.xcconfig */,
+				458293FCE20CA4C2ED08EBAB0B4375AB /* Surge-dummy.m */,
+				FD22F7A78FEBEC8EFD2BD94661BBDB4D /* Surge-prefix.pch */,
+				CA1E25A5875646BC1FB6592A623FDC56 /* Surge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Optimize/Pods/Target Support Files/Surge";
 			sourceTree = "<group>";
 		};
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
@@ -170,7 +230,7 @@
 		CC1D51153FF7EACE87A8AFA924FDD1F0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B730B4FE2D100FA0C02244664D68A2C /* Surge */,
+				958C3EF5927A82E9810F6E7B8CC58DF9 /* Surge */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -179,24 +239,9 @@
 			isa = PBXGroup;
 			children = (
 				8D2171792AB0237BEAE3F427E11E4177 /* Pods.framework */,
-				73979AD0787E1C7249601F92990D8D02 /* Surge.framework */,
+				1722C3FBFD8E1E1AE960844C9DB1DDFB /* Surge.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D99D4E10F848FDD32E818686E42C3433 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6DE4BA5576D1FF377152A162E8776B49 /* Info.plist */,
-				E68EF9F8B77D5B50CE22F0570B11C357 /* Surge.modulemap */,
-				1AE19C0B0009087446B9457DC8F79499 /* Surge.xcconfig */,
-				BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */,
-				FF7A51441EC91F7CFD831FFEF80D7C0A /* Surge-dummy.m */,
-				3934570BB1D12B95409EB0F844E606F7 /* Surge-prefix.pch */,
-				D222D784F316BFE186D30456B0464467 /* Surge-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Optimize/Pods/Target Support Files/Surge";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,11 +255,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8FDC1811F5EE820E9778A45F4FA3E30 /* Headers */ = {
+		FA79FE638B9FFA06DB78930DDC3330C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8251EFD498EE6DC0D33F1570182233D2 /* Surge-umbrella.h in Headers */,
+				4FAC0F86FC37F4DACCF81438F0B7B021 /* Surge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,20 +277,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				9968A02E5154169D8C07BC0B5755A5AF /* PBXTargetDependency */,
+				1918CE6CE64674D092415EEF84F7DBCC /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
 			productReference = 8D2171792AB0237BEAE3F427E11E4177 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D7667194B079E47C17B1DD17AE7942D0 /* Surge */ = {
+		CB02C682F5B8060BCE130C75685E16F2 /* Surge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCD3AD32C3A81A012509DF6188FECFBB /* Build configuration list for PBXNativeTarget "Surge" */;
+			buildConfigurationList = 63AB7DA729D0F688E5070C9CAF0223DF /* Build configuration list for PBXNativeTarget "Surge" */;
 			buildPhases = (
-				785B157C6ABF7D7CB33E9E9E786B9CBF /* Sources */,
-				25F24A3591E730A686C9DC0D092C6BA8 /* Frameworks */,
-				E8FDC1811F5EE820E9778A45F4FA3E30 /* Headers */,
+				53FB2F69BD76ED506CD1738553AEA69D /* Sources */,
+				3C9AF1B562AF619BCEB0E895B14AFFBF /* Frameworks */,
+				FA79FE638B9FFA06DB78930DDC3330C0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -253,7 +298,7 @@
 			);
 			name = Surge;
 			productName = Surge;
-			productReference = 73979AD0787E1C7249601F92990D8D02 /* Surge.framework */;
+			productReference = 1722C3FBFD8E1E1AE960844C9DB1DDFB /* Surge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -278,25 +323,40 @@
 			projectRoot = "";
 			targets = (
 				8F6A9CEBDCDFC696AE4F2C739DC93C35 /* Pods */,
-				D7667194B079E47C17B1DD17AE7942D0 /* Surge */,
+				CB02C682F5B8060BCE130C75685E16F2 /* Surge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		785B157C6ABF7D7CB33E9E9E786B9CBF /* Sources */ = {
+		53FB2F69BD76ED506CD1738553AEA69D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8F3D9E00A64D9078C49D199892972A2 /* Arithmetic.swift in Sources */,
-				5FE0DA21095C0DC6990B94E5B8C1B83F /* Auxiliary.swift in Sources */,
-				09894F4AA37CC88086CA541335846EA8 /* Exponential.swift in Sources */,
-				077FF212F6B14292CADC38B9D288CB95 /* FFT.swift in Sources */,
-				AE479D1606BC4E29B6F505FDAB1D7BA0 /* Hyperbolic.swift in Sources */,
-				1C44E87472B69D4389B0A374F7F166C7 /* Matrix.swift in Sources */,
-				B08D98226788F422D83794C1421262F5 /* Power.swift in Sources */,
-				101B38D3D3D7CDF39BB118DF880DCF33 /* Surge-dummy.m in Sources */,
-				ECDD6926B74F480CF38C5F2B60AB4744 /* Trigonometric.swift in Sources */,
+				B223AD4F03CB41595E44B5C68633EF61 /* Arithmetic.swift in Sources */,
+				64EB7299B0CFC2C228FE6FDFBF1F4396 /* ArrayArithmeticExtensions.swift in Sources */,
+				8251526473C552F925C8216E9210AB51 /* ArrayAuxiliaryExtensions.swift in Sources */,
+				A2F4E141992BBF2E2F3D6960DBAE3962 /* ArrayOperationsExtensions.swift in Sources */,
+				3773B9F455F349DE70F0A0DB1C29FC27 /* ArrayPowerExtensions.swift in Sources */,
+				7D765B072D41D75CDCF8897F2289CFE1 /* ArrayStatisticsExtensions.swift in Sources */,
+				EA238B978DB0DC81810D2678ED631B0B /* Auxiliary.swift in Sources */,
+				2F2D02F233888888CA88A6C3F9D66E77 /* Exponential.swift in Sources */,
+				09E29BAF013E973EC3001CD1A81410B0 /* FFT.swift in Sources */,
+				6EB99BBA27C6E0FEB2F58FBF538B31FC /* FloatingTypeArithmeticExtensions.swift in Sources */,
+				D75B6C9D214B252B10BAC106C2B6727A /* FloatingTypeAuxiliaryExtensions.swift in Sources */,
+				285635681715CAE04ADEDF8952686FC4 /* FloatingTypeOperationsExtensions.swift in Sources */,
+				55AE0E1F86330E38EE9A5053FB210AF7 /* FloatingTypePowerExtensions.swift in Sources */,
+				6A3B6A07CE4F512901634D69002BB150 /* FloatingTypeStatisticsExtensions.swift in Sources */,
+				C15646AC451DD55749FAABDF0FD9014C /* Hyperbolic.swift in Sources */,
+				F231B2396180F517E84D9EC7FE76CBCF /* Matrix.swift in Sources */,
+				2947C5FFFB9B39759270AB16B4185207 /* Power.swift in Sources */,
+				9FEBA9FEA51087EE1EA36F8E99B1A8C8 /* Surge-dummy.m in Sources */,
+				1389320982FB4525549CF97D2704FF6F /* Trigonometric.swift in Sources */,
+				C18F8ACCB93AB91DA1F59CDA14E6072E /* VectorArithmetic.swift in Sources */,
+				FA49AF15029AD98726E17ACEF9E630FC /* VectorAuxiliary.swift in Sources */,
+				ABE4AEFB99C5D7EF789047D96929B021 /* VectorOperations.swift in Sources */,
+				433D6F7102C3F81F945C600FBCF0328D /* VectorPower.swift in Sources */,
+				6D808C1F73C581237870D25CA9F38420 /* VectorStatistics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,15 +371,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9968A02E5154169D8C07BC0B5755A5AF /* PBXTargetDependency */ = {
+		1918CE6CE64674D092415EEF84F7DBCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Surge;
-			target = D7667194B079E47C17B1DD17AE7942D0 /* Surge */;
-			targetProxy = BDFE46D2CE7D46E7BA1ECC5626457CD0 /* PBXContainerItemProxy */;
+			target = CB02C682F5B8060BCE130C75685E16F2 /* Surge */;
+			targetProxy = 9D24399331D48ADA67EFEEA2B7D05B6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		428D9F1EEC4A9BEAF71F13CF662858D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83691A8F0590119A1AB06D32A9C5EE12 /* Surge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -356,34 +443,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		647353624054C7304B67A145D28AF8F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.3.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Surge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Surge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -451,6 +510,34 @@
 			};
 			name = Debug;
 		};
+		B4381BF8857782EB0D5E07A96A5ACA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83691A8F0590119A1AB06D32A9C5EE12 /* Surge-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B47F40E9A197E6A72D17DEE126C2705B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B4799EA35328DC88BAA8B86D4D44F6C /* Pods.release.xcconfig */;
@@ -480,33 +567,6 @@
 			};
 			name = Release;
 		};
-		E0E989A0FD1BFDE301A00761035FBAFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE83D67FB750DA2A1E75082F5EBB886D /* Surge-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.3.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Surge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Surge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,11 +588,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCD3AD32C3A81A012509DF6188FECFBB /* Build configuration list for PBXNativeTarget "Surge" */ = {
+		63AB7DA729D0F688E5070C9CAF0223DF /* Build configuration list for PBXNativeTarget "Surge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				647353624054C7304B67A145D28AF8F9 /* Debug */,
-				E0E989A0FD1BFDE301A00761035FBAFF /* Release */,
+				B4381BF8857782EB0D5E07A96A5ACA9A /* Debug */,
+				428D9F1EEC4A9BEAF71F13CF662858D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,7 +18,7 @@ public struct NewtonSolver: Solver {
         //let xMove = gradient * (-value / magnitude(gradient))
         //let xMove = pow(gradient, -1) * value * -1
         //print("Grad Mag: \(gradMag)\tXMove: \(xMove)")
-        return lineSearch(f, gradient: unit(gradient), x: x, fx: value, epsilon: value)
+        return lineSearch(f, gradient: gradient.unit(), x: x, fx: value, epsilon: value)
     }
     
     func lineSearch(f: SolverFunc, gradient: SolverVar, x: SolverVar, fx: SolverUnit, epsilon: Double) -> SolverVar {
@@ -30,7 +30,6 @@ public struct NewtonSolver: Solver {
         if newFx - fx < tolerance {
             return x
         }
-        
         return lineSearch(f, gradient: gradient, x: x, fx: fx, epsilon: epsilon / Double(2))
     }
 }

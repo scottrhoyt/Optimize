@@ -45,11 +45,13 @@ public func curve(x: Double, coeff: [Double]) -> Double {
     return y
 }
 
-var dataPoints: [(Double, Double)] = [
+var dataPoints: [(x: Double,y: Double)] = [
     (1, 1),
     (2, 1),
     (3, 3),
-    (4, 5)
+    (4, 5),
+    (10, 80),
+    (100, 400)
 ]
 
 public func error(coeff: [Double]) -> Double {
@@ -59,6 +61,14 @@ public func error(coeff: [Double]) -> Double {
         let error = value - y
         errors.append(error)
     }
-    let totalError = sum(sq(errors))
+    let totalError = errors.power(2.0).sum()
     return totalError
 }
+
+//public func gradient(coeff: [Double]) -> Double {
+//    let differences = dataPoints.map({
+//    (item1) -> Double in
+//        return curve(item1.x, coeff: coeff) - item1.y
+//    })
+//    let xVals =
+//}

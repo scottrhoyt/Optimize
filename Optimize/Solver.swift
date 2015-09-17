@@ -48,7 +48,7 @@ public extension Solver {
     public func minMax(guess: SolverVar, f: SolverFunc, gradient: GradientFunc? = nil, gradient2: GradientFunc? = nil) throws -> SolverResults {
         
         let deriv = gradient != nil ? gradient! : finiteDifference(f, increment: increment)
-        let derivMagnitude = { (x: SolverVar) -> SolverUnit in magnitude(deriv(x)) }
+        let derivMagnitude = { (x: SolverVar) -> SolverUnit in deriv(x).magnitude() }
         return try solve(guess, f: derivMagnitude, gradient: gradient2)
         
     }
@@ -85,8 +85,8 @@ public extension Solver {
         if values.iterations == maxIter {
             throw SolverError.MaxIterationsReached(results: values)
         }
-        else if values.valueChange <= limitTolerance {
-            throw SolverError.FunctionChangeBelowTolerance(results: values)
-        }
+//        else if values.valueChange <= limitTolerance {
+//            throw SolverError.FunctionChangeBelowTolerance(results: values)
+//        }
     }
 }
